@@ -1,4 +1,4 @@
-# Detailed-Equity-Analysis-and-Prediction-App
+# Detailed-Equity-Analysis
 This project is a user-friendly web application designed to provide detailed equity analysis and future stock price prediction using a Long Short-Term Memory (LSTM) neural network. Built with Streamlit, the application allows users to interactively analyze historical stock data, compute moving averages, assess rolling volatility, and predict future stock prices. Users can fetch historical stock data for up to 20 years from Yahoo Finance, visualize trends with moving averages for 100, 200, and 250 days, and evaluate the rolling volatility to understand market fluctuations.
 
 The prediction process uses a pre-trained LSTM model to analyze past stock price patterns and predict future prices. The last 100 days of historical stock prices are scaled using a MinMaxScaler and used as input to iteratively generate predictions for up to 100 future days. These predictions are rescaled to their original range for better interpretability. The app dynamically visualizes these predictions alongside historical prices, making it easier for users to understand trends and make informed decisions.
