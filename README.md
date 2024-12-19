@@ -1,0 +1,1 @@
+# Detailed-Equity-Analysis-and-Prediction-App
